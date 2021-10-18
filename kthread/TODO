@@ -1,0 +1,8 @@
+
+* 内核中的延时操作delay()、sleep()，实现，以及区别？
+* 为什么`kthread_create()` 之后需要执行唤醒操作？代码分析
+* 为什么必须要执行 `kthread_should_stop()`，`kthread_stop()` 才能返回
+
+
+
+
