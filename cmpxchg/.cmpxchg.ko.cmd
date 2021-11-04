@@ -1,1 +1,0 @@
-cmd_/home/yuchao/gitHub/kernel_samples/cmpxchg/cmpxchg.ko := x86_64-redhat-linux-ld -r -m elf_x86_64 -T /home/yuchao/workspace/blade/main_longtime/platform/kernel.x86_64/scripts/module-common.lds --build-id -o /home/yuchao/gitHub/kernel_samples/cmpxchg/cmpxchg.ko /home/yuchao/gitHub/kernel_samples/cmpxchg/cmpxchg.o /home/yuchao/gitHub/kernel_samples/cmpxchg/cmpxchg.mod.o
