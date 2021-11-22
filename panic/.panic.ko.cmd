@@ -1,0 +1,1 @@
+cmd_/home/yuchao/gitHub/kernel_samples/panic/panic.ko := x86_64-redhat-linux-ld -r -m elf_x86_64 -T /home/yuchao/workspace/blade/main_longtime/platform/kernel.x86_64/scripts/module-common.lds --build-id -o /home/yuchao/gitHub/kernel_samples/panic/panic.ko /home/yuchao/gitHub/kernel_samples/panic/panic.o /home/yuchao/gitHub/kernel_samples/panic/panic.mod.o
