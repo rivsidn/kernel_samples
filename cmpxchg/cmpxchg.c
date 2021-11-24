@@ -16,7 +16,7 @@ static int __init demo_init(void)
 
 
 	/*
-	 * a == b 时，a 的值变成 c，b,c 值不变，返回值为 b 的值
+	 * a == b 时，a 的值变成 c，b,c 值不变，返回值为 a 之前的值
 	 */
 	a = 2; b = 2; c = 3;
 	printk("a %d b %d c %d ", a, b ,c);
