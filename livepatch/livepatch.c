@@ -4,7 +4,8 @@
 static int __init demo_init(void)
 {
 	printk(KERN_INFO "init\n");
-	printk(KERN_INFO "hello world\n");
+
+	//TODO: 添加livepatch 功能
 
 	return 0;
 }
