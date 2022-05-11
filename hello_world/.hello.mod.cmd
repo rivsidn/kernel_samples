@@ -1,0 +1,1 @@
+cmd_/home/yuchao/Documents/github/kernel_samples/hello_world/hello.mod := { echo  /home/yuchao/Documents/github/kernel_samples/hello_world/hello.o;  echo; } > /home/yuchao/Documents/github/kernel_samples/hello_world/hello.mod
