@@ -1,1 +1,0 @@
-cmd_/home/yuchao/Documents/github/kernel_samples/hello_world/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/yuchao/Documents/github/kernel_samples/hello_world/hello.ko /home/yuchao/Documents/github/kernel_samples/hello_world/hello.o /home/yuchao/Documents/github/kernel_samples/hello_world/hello.mod.o;  true
