@@ -10,21 +10,22 @@ struct TEST {
 
 static int __init demo_init(void)
 {
-	struct TEST *pt;
-	struct TEST test1, test2, test3; 
+	int i = 0;
+	struct TEST *tmp, *test;
+	struct TEST test1;
 
 	memset(&test1, 0 ,sizeof(struct TEST));
 	test1.value = 10;
-	test2.value = 20;
-	test3.value = 30;
 
 	INIT_LIST_HEAD(&head);
-	list_add_tail(&test1.list, &head);
-	list_add_tail(&test2.list, &head);
-	list_add_tail(&test3.list, &head);
+	list_add(&test1.list, &head);
+	list_add(&test1.list, &head);
 
-	list_for_each_entry(pt, &head, list) {
-		printk("%d\n", pt->value);
+	list_for_each_entry_safe(test, tmp, &head, list) {
+		printk("%d\n", test->value);
+		if (i++ > 100) {
+			break;
+		}
 	}
 
 	return 0;
